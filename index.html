@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+    <style>
+        pre {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 35%;
+        }
+    </style>
+</head>
+
+<body>
+    <pre>
+        <h2>1.print 2 table using loops in javascript</h2>
+------->var a = 2;
+        for (i = 1; i <= 10; i++) {
+            var product = a * i
+            console.log(a + "x" + i + "=" + product);
+        }
+
+------->Output:
+
+        2x1=2
+        2x2=4
+        2x3=6
+        2x4=8
+        2x5=10
+        2x6=12
+        2x7=14
+        2x8=16
+        2x9=18
+        2x10=20
+
+       <h2>2.print even numbers 0 to 10</h2>
+------->for (a = 0; a <= 10; a++) {
+            if (a % 2 == 0) {
+                console.log(a);
+
+            }
+        }
+        
+------->output:
+
+        0,2,4,6,8,10
+
+        <h2>3.print reverse of even numbers</h2>
+------->for (a = 10; a >= 0; a--) {
+            if (a % 2 == 0) {
+                console.log(a);
+
+            }
+        }
+
+------->output:
+
+        10,8,6,4,2,0
+
+        <h2>4.print 1 to 10 numbers</h2>
+------->for (a = 1; a <= 10; a++) {
+            console.log(a);
+
+        }
+
+------->output:
+
+        1,2,3,4,5,6,7,8,9,10
+
+        <h2>5.print 10 to 1 numbers</h2>
+------->for (a = 10; a >= 1; a--) {
+            console.log(a);
+
+        }
+
+------->output:
+
+        10,9,8,7,6,5,4,3,2,1
+
+        <h2>Problem 1</h2>
+------->var a = 10;
+        while (a < 20) {
+            a++;
+            console.log(a);
+        }
+
+------->output:
+
+        11,12,13,14,15,16,17,18,19,20
+
+        <h2>Problem 2</h2>
+------->var a = 0;
+        while (a < 20) {
+            a += 3;
+            console.log(a);
+            a++;
+        }
+
+------->output:
+        
+        3,7,11,15,19
+</pre>
+    <script>
+        // 1.print 2 table or 3 table using loops in javascript
+        var a = 2;
+        for (i = 1; i <= 10; i++) {
+            var product = a * i
+            console.log(a + "x" + i + "=" + product);
+        }
+        // 2.print even numbers 0 to 10
+        for (a = 0; a <= 10; a++) {
+            if (a % 2 == 0) {
+                console.log(a);
+
+            }
+        }
+        // 3.print reverse of even numbers
+        for (a = 10; a >= 0; a--) {
+            if (a % 2 == 0) {
+                console.log(a);
+
+            }
+        }
+        // 4.print 1 to 10 numbers
+        for (a = 1; a <= 10; a++) {
+            console.log(a);
+
+        }
+        // 4.print 10 to 1 numbers
+        for (a = 10; a >= 1; a--) {
+            console.log(a);
+
+        }
+
+        var a = 10;
+        while (a < 20) {
+            a++;
+            console.log(a);
+        }
+        // 11,12,13,14,15,16,17,18,19,20
+        var a = 0;
+        while (a < 20) {
+            a += 3;
+            console.log(a);
+            a++;
+        }
+        // 3,7,11,15,19
+    </script>
+</body>
+
+</html>
